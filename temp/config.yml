@@ -1,0 +1,13 @@
+development:
+  root_uri: "http://localhost:2938"
+  database_uri: "sqlite:///temp/development.sqlite3"
+
+test:
+  root_uri: "http://localhost:2939"
+  database_uri: "sqlite:///temp/test.sqlite3"
+
+production:
+  root_uri: "http://localhost:80"
+  database_uri: "sqlite:///temp/production.sqlite3"
+
+# { development: { root_uri: "http://localhost:2938", database_uri: "" } }

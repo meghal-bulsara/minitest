@@ -9,7 +9,7 @@ module MyApp
 
     def self.load!
       environment = ENV["APP_ENV"] || "development"
-      options = YAML.load_file("/tmp/config.yaml")[environment]
+      options = YAML.load_file("/temp/config.yaml")[environment]
       root_uri = options["root_uri"]
       database_uri = options["database_uri"]
 
